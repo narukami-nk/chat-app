@@ -12,21 +12,7 @@
 </div>
 
 <div class =" messages">
-  <div class = "message">
-    <div class = "upper-message">
-      <div class = "message-user">
-       Tom
-      </div>
-      <div class = "message-date">
-       2021/9/12
-      </div>
-    </div>
-    <div class = "lower-message">
-      <div class = "message-content">
-        おはよう
-      </div>
-    </div>
-  </div>
+  <%= render partial: 'message', collection: @messages %>
 </div>
 
 
